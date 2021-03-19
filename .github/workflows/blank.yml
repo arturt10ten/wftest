@@ -35,3 +35,5 @@ jobs:
           echo ${{secrets.MAIN_KEY}}
           echo ${{github.event.ref_type }}
           echo ${{github.event.ref}}
+          echo ${{JSON.stringify(github)}}
+          
