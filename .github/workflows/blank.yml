@@ -32,6 +32,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          echo KEY
+          echo $KEY
           echo ${{github.event.ref_type }}
           echo ${{github.event.ref}}
